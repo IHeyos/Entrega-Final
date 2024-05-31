@@ -83,57 +83,6 @@ main {
     max-width: 100%;
 }
 
-/* Acerca de */
-
-.imgAbout1 img {
-    width: 300px;
-    height: 200px;
-}
-
-.acercaDe {
-    display: flex;
-    align-items: center;
-    height:auto;
-}
-.grupoImgs {
-    display: flex;
-    align-items: row;
-    width: 50%;
-    margin-left: 20%;
-}
-
-.text-about {
-    width: 30%;
-    margin-left: 5%;
-}
-
-.acercaDe2 {
-    display:flex;
-    align-items:center;
-}
-
-.imgAbout2 {
-    width: 50%;
-    margin-left: 5%;
-}
-
-.imgAbout2 img {
-    width: 600px;
-    height: 400px;
-}
-
-.text-about2 {
-    width: 30%;
-    height: 30%;
-}
-
-.aboutFinalText {
-    margin-top: 5%;
-    margin-left:5%;
-    margin-right: 15%;
-    margin-bottom: 5%;
-}
-
 /* Certificados */
 
 .certificados {
@@ -259,51 +208,6 @@ main {
 }
 
 /* Contacto */
-
-.imgContacto1 img {
-    width: 600px;
-    height: 400px;
-}
-
-.contacto {
-    display: flex;
-    align-items: center;
-    height:auto;
-}
-
-.imgsContacto {
-    display: flex;
-    align-items: row;
-    width: 50%;
-    margin-left: 5%;
-}
-
-.textoContacto {
-    width: 50%;
-    margin-left: 5%;
-}
-
-.contacto2 {
-    display:flex;
-    align-items:center;
-}
-
-.imgContacto2 {
-    width: 50%;
-    margin-left: 5%;
-}
-
-.imgContacto2 img {
-    width: 600px;
-    height: 400px;
-    margin-bottom: 10%;
-}
-
-.textoContacto2 {
-    width: 30%;
-    height: 30%;
-}
-
 /* Pie de pagina */
 
 footer {
