@@ -1,59 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Certificados</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles.css">
 </head>
+
 <body>
-    <header>
-        <div class="logo-container">
-            <img src="../imagenes/logoVertice.png" alt="Logo de Vertice" class="logo">
-        </div>
-        <div class="title-container"> 
-            <img src="../imagenes/verticeSlogan.png" alt="Logo de Vertice" class="logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../about/about.html">Acerca de</a></li>
-                <li><a href="../certificates/certificates.html">Certificados</a></li>
-                <li><a href="../services/services.html">Servicios</a></li>
-                <li><a href="../contact/contact.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Nuestras Certificiones</h1>
-        <div class="certificados">
-            <div class="certText">
-                <div class="certText1">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ratione odit itaque nemo aliquid, libero, nam illum nobis non maxime labore. Alias, at ab quos nostrum reiciendis suscipit aliquam unde? Possimus temporibus id repellat tenetur nemo natus corporis neque vero autem illo quo excepturi blanditiis fuga cum, commodi nesciunt ratione!</p>
-                </div>
-                <div class="certText2">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae minima animi modi accusamus repellendus perspiciatis in exercitationem, voluptatem iusto atque sunt autem commodi architecto praesentium nihil totam eveniet quos est eius expedita blanditiis vel possimus! Hic nisi, dignissimos veritatis soluta voluptatem inventore eos. Asperiores quam aut optio excepturi facere? Architecto?</p>
-                </div>
-                <div class="certText3">
-                    <h2>Certificados</h2>
-                    <ul>
-                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, sed.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ipsum.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, sunt.</li>
-                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, accusamus!</li>
-                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, cum.</li>
-                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, provident.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, doloremque?</li>     
+    <header class="header">
+
+        <div class="navbar w-100">
+            <div class="w-100 navbar-row d-flex align-items-end justify-content-between">
+
+                <div class="logo d-flex align-items-end"><img src="/imagenes/logoVertice.png" /><img
+                        src="/imagenes/verticeSlogan.png" /></div>
+                <div class="logo-slogon"></div>
+                <div class="d-flex align-bottom align-items-baseline">
+                    <ul class="unorder-list" id="navList">
+                        <li class=""><a class="text-decoration-none" href="../index.html">Inicio</a></li>
+                        <li class=""><a class="text-decoration-none" href="../about/about.html">Acerca
+                                de</a></li>
+                        <li class=""><a class="text-decoration-none li-active"
+                                href="../certificates/certificates.html">Certificados</a></li>
+                        <li class=""><a class="text-decoration-none" href="../services/services.html">Servicios</a>
+                        </li>
+                        <li class=""><a class="text-decoration-none" href="../contact/contact.html">Contacto</a></li>
                     </ul>
+                    <button id="toggleee" class="toggleBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                        </svg>
+                    </button>
                 </div>
             </div>
-            <div class="certImage">
-                <img src="../imagenes/certImage.jpg" alt="Imagen Pag Certificados">
-            </div>
         </div>
-    </main>
+    </header>
+
+    <div class="certificate-heading">
+        <h1>Respaldo y responsabilidad</h1>
+        <p>El equipo de profesionales de VERTICE soluciones en altura trabaja a diario prestando servicios en Trabajos Verticales, Espacios Confinados, Instalación de sistemas Anticaídas, Consultorías y Capacitación, en materia de prevención y control de emergencias, a empresas e instituciones de los más variados sectores y a lo largo de todo el país.</p>
+        <p>En estos tiempos que es más acuciante respetar las normas de seguridad en la realización de los trabajos que conllevan, como riesgo añadido, trabajar en altura o en lugares de difícil acceso, conviene disponer de los servicios de una empresa profesional capaz de solucionar los problemas de aplicación y seguridad que existen habitualmente.</p>
+        <p>Es por esto que VÉRTICE soluciones en altura es la primera empresa uruguaya del rubro, certificada y autorizada como instalador oficial de Sistemas Anticaidas, Trabajos Verticales y Rescate Industrial de las empresas Alemanas, Francesas, Americanas, Españolas y Chilenas.</p>
+    </div>
+
+    <div class="certificate-sec">
+        <div class="certificados-left">
+            <h2>Certificados</h2>
+            <ul>
+                <li>APREM (Chile)</li>
+                <li>GRUPO SIMA (España)</li>
+                <li>CAPITAL SAFETY DBI sala – Protecta (EEUU)</li>
+                <li>FISCHER (Alemania)</li>
+                <li>SOLL-XENON by SPERIAN (Alemania)</li>
+                <li>GM distribution (Francia)</li>
+                <li>RADARCAN (España).</li>
+            </ul>
+        </div>
+        <div class="certificados-right">
+            <img src="../imagenes/certImage.jpg" alt="Imagen Pag Certificados">
+        </div>
+    </div>
     <footer>
         <p>Derechos de autor &copy; 2024 Vertice: Soluciones en altura</p>
     </footer>
+    <script src="../js/script.js"></script>
 </body>
+
 </html>
